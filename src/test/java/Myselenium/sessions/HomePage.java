@@ -26,7 +26,7 @@ public class HomePage extends Base  {
 	{
 		
 		driver = intializeDriver();
-		driver.get(prop.getProperty("url"));
+		driver.get(" https://www.instagram.com/?hl=en");
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.putEmail().sendKeys(email);

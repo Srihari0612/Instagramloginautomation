@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-28T09:53:34 IST" name="Suite" finished-at="2020-08-28T09:53:49 IST" duration-ms="15200">
+  <suite name="Suite" duration-ms="80436" started-at="2021-06-08T13:14:05 IST" finished-at="2021-06-08T13:15:26 IST">
     <groups>
     </groups>
-    <test started-at="2020-08-28T09:53:34 IST" name="Test" finished-at="2020-08-28T09:53:49 IST" duration-ms="15200">
+    <test name="Test" duration-ms="80436" started-at="2021-06-08T13:14:05 IST" finished-at="2021-06-08T13:15:26 IST">
       <class name="Myselenium.sessions.HomePage">
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@3d299e3]" started-at="2020-08-28T09:53:34 IST" name="basePageNavigation" data-provider="getData" finished-at="2020-08-28T09:53:49 IST" duration-ms="15156" status="PASS">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="17030" started-at="2021-06-08T13:14:05 IST" data-provider="getData" finished-at="2021-06-08T13:14:22 IST">
           <params>
             <param index="0">
               <value>
@@ -22,6 +22,111 @@
             <param index="2">
               <value>
                 <![CDATA[User 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="12747" started-at="2021-06-08T13:14:22 IST" data-provider="getData" finished-at="2021-06-08T13:14:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bcdsh@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="12965" started-at="2021-06-08T13:14:35 IST" data-provider="getData" finished-at="2021-06-08T13:14:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cdsh@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="12840" started-at="2021-06-08T13:14:48 IST" data-provider="getData" finished-at="2021-06-08T13:15:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dcdsh@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="12318" started-at="2021-06-08T13:15:01 IST" data-provider="getData" finished-at="2021-06-08T13:15:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ecdsh@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Myselenium.sessions.HomePage@2ac273d3]" name="basePageNavigation" duration-ms="12453" started-at="2021-06-08T13:15:13 IST" data-provider="getData" finished-at="2021-06-08T13:15:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fcdsh@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[125888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User 6]]>
               </value>
             </param>
           </params>
